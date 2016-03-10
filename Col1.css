@@ -1,0 +1,63 @@
+h1 {
+	text-align:center}
+
+body {
+    font: 16px "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    line-height: 1.5em;
+}
+
+
+.wrapper {
+    max-width: 960px;
+    margin: 10px auto;
+    border: 2px solid rgb(246, 52, 52);
+}
+
+
+.row {
+    background-color: #F90004;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.row::after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+
+.col {
+	display: block;
+    float: left;
+}
+
+
+.col:last-child {
+    margin-right: 0;
+}
+
+
+.col-3 {
+    width: 31.25%;
+    margin-right: 3.12%;
+}
+
+
+.col-5 {
+    width: 41.66667%;
+    margin-right: 3%;
+}
+
+
+.col-6 {
+    width: 48.5%;
+    margin-right: 3%;
+}
+
+
+.col-7 {
+    width: 55.33333%;
+    margin-right: 3%;
+}
